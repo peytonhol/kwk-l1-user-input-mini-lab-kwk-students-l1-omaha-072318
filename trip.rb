@@ -13,10 +13,12 @@ city = NYC
 puts "Where would you like to eat?"
 
 eat = gets.chomp.capitalize
+eat = pizza
 
 puts = "Where would you like to nights?"
 
 nights = gets.chomp.capitalize
+nights = 5
 
 # Lastly, puts it all back by interpolating these values in a string.
 
